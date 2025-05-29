@@ -1,0 +1,14 @@
+// const { a, add, b } = require('./file_01.js');
+// const var1 = require('./file_01.js');
+// console.log(var1.a);
+// console.log(var1.add);
+// console.log(var1.b);
+// const { a: a3, add: add3, b: b3 } = require('./file_03.js');
+import one from "./esm_01.mjs";
+console.log(one.a);
+console.log(one.add(2, 3));
+console.log(one.b);
+import two from "./esm_03.mjs";
+console.log(two.a);
+console.log(two.add(2, 3, 4));
+console.log(two.b);
