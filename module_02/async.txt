@@ -1,2 +1,2 @@
 This is sync.txt
-// This is a text file that is read synchronously
+This is a text file that is read synchronously
