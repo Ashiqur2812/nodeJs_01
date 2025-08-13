@@ -7,4 +7,4 @@ const add = (param1, param2) => param1 + param2;
 const b = 12;
 module.exports = { a, add, b };
 // console.log(module);
-// this is node js code
+// this is node js
